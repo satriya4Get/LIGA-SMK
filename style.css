@@ -1,0 +1,135 @@
+:root{
+    --sectionPadding: 6rem 0;
+}
+
+
+
+body{
+background-color: aliceblue;
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+}
+.nav-list home{
+    color: blue;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.women{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-des{
+    align-items: center;
+    padding-left: 25%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#home{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: var(--sectionPadding);
+}
+.home-des .jutaan{
+    font-size: 20px;
+}
+.home-des a{
+    text-decoration: none;
+    
+}
+.button-mulai {
+    background-color: #180cc2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: space-around;
+   }
+
+
+
+
+   /* Batas */
+   #Batas{
+    padding: var(--sectionPadding);
+}
+
+.gambar{
+    background: rgb(219, 219, 16);
+    display: flex;
+    gap: 6.5rem;
+    justify-content: center;
+    padding: 30px 100%;
+}
+
+.detail p{
+    margin: .5rem 0 1.4rem;
+}
+
+.gambar-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.rank-title{
+    margin-bottom: 0;
+}
+/* courses */
+#courses {
+    padding: var(--sectionPadding);
+}
+
+.nav-courses {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2, span {
+    margin-bottom: 10px;
+}
+
+.title-courses{
+    gap: 50px;
+}
+
+.list-courses {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem;
+}
+
+.list-courses a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.list-courses a:hover {
+    background-color: #e0e0e0;
+}
